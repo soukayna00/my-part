@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+color: white;
+background-color: black;
+padding:0px;
+
+}
+
+h1{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 55px;
+line-height: 75px;
+
+
+}
+
+.Sign {
+  color: black;
+  background-color: white;
+  border-radius: 15px;
+  width: 150px;;
+  height: 44px;
+ text-align: center;
+ margin-left:100px;
+}
+.sections{
+  display:flex;
+  justify-content: flex-end;
+}
+.section2{
+  width:50%;
+}
+input{
+  width: 300PX;
+  border: none;
+  border-bottom: 1px solid white;
+}
+.radio{
+  display: flex;
+  justify-content: flex-start;
+}
+input[type="radio"]{
+  width: 10px;
+}
+.or{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.signing button{
+  color: black;
+  background-color: white;
+  border-radius: 15px;
+  width: 274px;;
+  height: 44px;
+  margin-left:19px;
+  text-align: center;
+}
